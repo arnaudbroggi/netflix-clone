@@ -1,0 +1,30 @@
+.nav{
+  position: fixed;
+  top: 0;
+  z-index: 400;
+  padding: 10px 4%;
+  width: 100%;
+  display: flex;
+  background-color: transparent;
+  transition-timing-function: ease-in;
+  transition: all 0.3s;
+  height: 80px;
+}
+.nav__scroll{
+  background-color: #141414;
+
+}
+
+.nav img{
+  object-fit: contain;
+  width: 100px;
+}
+@media (max-width: 768px){
+  .nav{
+    height: 50px;
+    img{
+      width: 70px;
+    }
+  }
+
+}
